@@ -429,7 +429,7 @@ ggdesplot <- function(data,
   } else if(has.num) {
     data$cell.text <- as.numeric(num.val)
   } else if(has.col) {
-    data$cell.text <- rep("x", length=nrow(data))
+    data$cell.text <- rep("+", length=nrow(data))
   }
 
   # Data quality flag
